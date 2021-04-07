@@ -1,0 +1,15 @@
+Add all files:
+git add -A
+
+Commit all files:
+git commit -am "text here"
+
+Pull files:
+git pull
+
+merge:
+git merge
+
+Check Status:
+git status
+
