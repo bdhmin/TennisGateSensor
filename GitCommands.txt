@@ -1,1 +1,30 @@
 hello I am typing a vim file and it's sickkkkkkkkk. This is a very epic vim terminal file I love it it's great  
+
+Add all files:
+git add -A
+
+Commit all files:
+git commit -am "text here"
+
+Pull files:
+git pull
+
+If you want to be extra sure:
+git pull origin master
+
+Merge
+git merge
+
+Check Status:
+git status
+
+
+Create a new Branch:
+git checkout -b [branch-name-here]
+
+Go into a Branch:
+git checkout [branch-name]
+
+Making a Pull Request from a Branch:
+git push -set--upstream [branch-name]
+
