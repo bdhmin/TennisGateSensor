@@ -9,17 +9,19 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  if(Serial.available()) {
-    incomingString = Serial.readString();
 
-    /*
-    if(incomingString.indexOf("LEDON") >0) {
+  if (Serial.available()) {
+    incomingString = Serial.readString();
+    if (incomingString.indexOf("HI") >0) {
       digitalWrite(ledPin, HIGH);
     }
-    else if(incomingString.indexOf("LEDOFF") >0) {
+    else if (incomingString.indexOf("LOW") >0) {
       digitalWrite(ledPin, LOW);
     }
-    */
+  }
+  /*
+  if(Serial.available()) {
+    incomingString = Serial.readString();
 
     if (incomingString.indexOf("HI") >0) {
         digitalWrite(ledPin, HIGH);
@@ -27,4 +29,5 @@ void loop() {
         digitalWrite(ledPin, LOW);
     }
   }
+  */
 }
